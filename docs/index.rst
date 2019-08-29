@@ -1,5 +1,7 @@
 **Random**
-**MUST BE AWAITED*
+
+**MUST BE AWAITED**
+
 **Random Nekos:**
 ``nbapi.random.neko()``
 
@@ -19,8 +21,5 @@
 
 **Anime:**
 ``nbapi.search.anime(*int)``
-
-
-
 
 
