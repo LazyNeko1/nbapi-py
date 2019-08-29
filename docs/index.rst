@@ -1,4 +1,4 @@
-#Random
+***Random***
 
 Random Nekos:
 `nbapi.random.neko()`
@@ -12,7 +12,7 @@ Random Anime:
 
 
 
-#Search
+***Search***
 
 Nekos:
 `nbapi.search.neko(*int)`
