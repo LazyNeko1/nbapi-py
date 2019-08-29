@@ -1,5 +1,5 @@
 **Random**
-
+**MUST BE AWAITED*
 **Random Nekos:**
 ``nbapi.random.neko()``
 
