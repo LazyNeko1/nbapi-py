@@ -1,6 +1,6 @@
-import asyncio 
+import asyncio,requests
 from random import randint
-import urllib
+
 #Note: Using this API you are going to be using a API that MAY (unlikely) But MAY send NSFW results.
 #If that happens, DM my owner (LazyNeko#5644), or join the Neko Support Server from the website.
 
@@ -12,23 +12,16 @@ import urllib
 #                   #--------------------------------------------------#
 
 #You may edit this code to your needs. I dont mind ;3
-
+#TODO: make requests smaller (DONE)
 class random():
     def anime():
-        for line in urllib.request.urlopen('http://neko-bot.net/info/totalposts.txt'):
-            animemax=line
-            animemin=1
-            total=randint(int(postmin).int(postmax))
+        return f"http://neko-bot.net/anime/anime{str(randint(int(1),int(str(requests.get('http://neko-bot.net/info/totalanime.txt').text))))}"
     def neko():
-        for line in urllib.request.urlopen('http://neko-bot.net/info/totalnekos.txt'):
-                   
-            nekomax=line
 
-            nekomin=6
-            total=randint(int(nekomin),int(nekomax))
                 
-            return 'http://neko-bot.net/nekos/neko'+str(total)+'.png'
-
+            return f"http://neko-bot.net/nekos/neko{str(randint(int(1),int(str(requests.get('http://neko-bot.net/info/totalnekos.txt').text))))}"
+    def pat():
+        return f"http://neko-bot.net/pats/{str(randint(int(1),int(str(requests.get('http://neko-bot.net/info/totalpats.txt').text))))}"
 
 
 class search():
@@ -36,3 +29,4 @@ class search():
         return 'http://neko-bot.net/nekos/neko'+str(num)+'.png'
     def anime(num):
         return 'http://neko-bot.net/posts/post'+str(num)+'.png'
+#print(random.pat() + random.neko() + random.anime())   #DEBUG
