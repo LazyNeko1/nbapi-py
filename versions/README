@@ -3,5 +3,5 @@ These are the versions of the API
 Will be updated within 30m of updates.
 
 
-Completed a working version of the api
-Now working on making requests faster, if possible.
+9/26
+Added "pat" endpoint. Plan on adding a *animated* hug endpoint, kiss, etc.
