@@ -15,7 +15,7 @@ https.get('http://neko-bot.net/info/totalnekos.txt', (resp) => {
     //output: data
     low=1
     high=data
- return("http://neko-bot.net/nekos/neko"+Math.floor(Math.random() * (high - low + 1) + low) +".png"
+ return("http://neko-bot.net/nekos/"+Math.floor(Math.random() * (high - low + 1) + low) +".png"
    
 )    
     
@@ -44,7 +44,7 @@ https.get('http://neko-bot.net/info/totalanime.txt', (resp) => {
     //output: data
     low=1
     high=data
- return("http://neko-bot.net/anime/anime"+Math.floor(Math.random() * (high - low + 1) + low)+".png"
+ return("http://neko-bot.net/anime/"+Math.floor(Math.random() * (high - low + 1) + low)+".png"
    
 )    
     
