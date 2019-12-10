@@ -1,4 +1,4 @@
-# nbapi
+nbapi
 Library for a SFW nekos+anime, powering [NekoBot](http://neko-bot.net)  ([REPOSITORY](https://github.com/lazyneko1/NekoBot))
 -----------------------------
 Update 9/26:
