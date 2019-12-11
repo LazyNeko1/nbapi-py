@@ -2,6 +2,7 @@ nbapi
 Library for a SFW nekos+anime, powering [NekoBot](http://neko-bot.net)  ([REPOSITORY](https://github.com/lazyneko1/NekoBot))
 ------------------------------
 update 12/10
+Added a default "check" that can be disabled by doing check=False
 actually uploaded to pypi (1.9.0.6) and now has *SOURCE* in the seqarch menu, also now when getting *SOURCES* you will also get the `id`
 -----------------------------
 Update 9/26:
