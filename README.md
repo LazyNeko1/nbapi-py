@@ -1,5 +1,9 @@
 nbapi
 Library for a SFW nekos+anime, powering [NekoBot](http://neko-bot.net)  ([REPOSITORY](https://github.com/lazyneko1/NekoBot))
+Other Languages:
+Rust - https://github.com/apriluwu/nbapi-rs
+
+
 ------------------------------
 update 12/10
 Added a default "check" that can be disabled by doing check=False
