@@ -1,8 +1,8 @@
 NBApi python library for a SFW nekos+anime, powering [NekoBot](http://neko-bot.net)  ([REPOSITORY](https://github.com/lazyneko1/NekoBot))
 
-Other Languages:
+#Main Library Hub: 
 
-Rust - https://github.com/apriluwu/nbapi-rs
+https://github.com/lazyneko1/nbapi
 
 
 ------------------------------
