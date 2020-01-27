@@ -1,5 +1,3 @@
-<title>NBApi Python Module</title>
-
 
 **Random**
 ---------
